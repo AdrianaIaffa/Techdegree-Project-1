@@ -98,9 +98,6 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
-}
 
 ul.skills {
   padding: 0;
@@ -110,14 +107,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: grey;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: lightgrey;
+  color: black;
 }
 
 footer {
@@ -203,4 +201,9 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+h2 {
+
+  text-align: center;
 }
