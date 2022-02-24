@@ -207,3 +207,20 @@ h2 {
 
   text-align: center;
 }
+
+
+header .experience {
+
+  padding-top: 60px;
+}
+header .experience{
+  line-height: 1.5;
+}
+header .profile-experience {
+  margin-top: 50px;
+  width: 500px;
+  height: 350px;
+  border-radius: 0%;
+  border: 1px solid black;
+  transition: all .5s;
+}
